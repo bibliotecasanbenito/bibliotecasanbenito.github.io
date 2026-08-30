@@ -1,4 +1,0 @@
-Sitemap: https://bibliotecasanbenito.org/sitemap.xml
-
-User-agent: *
-Disallow:
