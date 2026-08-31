@@ -1081,8 +1081,8 @@ def write_pages(docs: Path):
     (docs / "robots.txt").write_text("User-agent: *\nAllow: /\n", encoding="utf-8")
     print("wrote robots.txt")
 
-    (docs / "CNAME").write_text("bibliotecasanbenito.org\n", encoding="utf-8")
-    print("wrote CNAME")
+    # (docs / "CNAME").write_text("bibliotecasanbenito.org\n", encoding="utf-8")
+    # print("wrote CNAME")
 
 
 if __name__ == "__main__":
