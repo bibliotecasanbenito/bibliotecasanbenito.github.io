@@ -192,7 +192,7 @@ def person(img_prefix, file, name, role, bio, alt):
 <div>
 <h2>{name}</h2>
 <p class="role">{role}</p>
-{bio}
+<p>{bio}</p>
 </div>
 </article>"""
 
@@ -430,7 +430,7 @@ def write_pages(docs: Path):
             "tony-leung.jpg",
             "Anthony Tak On Leung",
             "Presidente, jubilado",
-            "<p>Nació y creció en Hong Kong; estudió en la Universidad de Wisconsin. Fue empresario y trabajó para la Organización Internacional para las Migraciones como oficial de administración y finanzas en Manila. Ha sido voluntario en varias ONG en Hong Kong, incluyendo Refugee Concern, la Asociación Hong Chi, la Fundación Pam Baker, y presidió The Leprosy Project en Sichuan, China. Fue rotario activo por más de 30 años.</p>",
+            "El señor Tony Leung es el actual Presidente de la Fundación Arte y Cultura de Tierras Altas. Nació y creció en Hong Kong; estudio en la Universidad de Wisconsin. Fue un empresario y ahora esta retirado. Trabajo para la Organización Internacional de Migración como Oficial de Migración y Finanzas en Manila, Filipinas. El ha sido voluntario en varias ONGs en Hong Kong, incluyendo Refugee Concern, la Asociación Hong Chi, la Fundación Pam Baker, y fungió como Presidente para el Proyecto de Lepra, el cual ayuda a personas afectadas por lepra en la provincia de Sichuan, China. Tony ha sido un miembro Rotario activo por más de 30 años.",
             "Anthony Leung, presidente",
         )
         + person(
@@ -438,74 +438,74 @@ def write_pages(docs: Path):
             "linda-chang.jpg",
             "Linda Kristina Chang Quintero",
             "Vicepresidenta y representante legal, abogada",
-            "<p>Miembro fundador. Nació en la ciudad de Panamá. Título en Derecho y Ciencias Políticas de la Universidad Metropolitana de Panamá; conciliadora y mediadora por la Universidad Latina, con especialización en derecho comercial y migratorio. Socia de Magallan y Chang; asesora legal de la Cámara de Turismo, Comercio e Industria de Tierras Altas.</p>",
+            "La señora Chang es miembro fundador de la Fundación Arte y Cultura de Tierras Altas, actualmente se desempeña como Vicepresidenta y Representante Legal. Nació en la ciudad de Panamá y obtuvo su titulo en Derecho y Ciencias Politicas en la Universidad Metropolitana de Panamá y obtuvo la licencia de conciliadora y mediadora en la Universidad Latina de Panamá además tiene especialización en Derecho comercial y Migratorio, forma parte de la Unión Nacional de Abogadas de Panamá. La Sra. Linda Chang es actualmente socia de la firma de Abogados Magallan y Chang, ejerciendo el derecho en las Provincias de Panamá y Chiriquí, en el Distrito de Tierras Altas la licenciada Chang es asesora legal de la Cámara de Turismo, Comercio e Industria de Tierras Altas.",
             "Linda Chang, vicepresidenta",
-        )
-        + person(
-            "",
-            "alan-baumbach.jpg",
-            "Alan John Baumbach",
-            "Tesorero, jubilado",
-            "<p>Miembro fundador. Nació en Colorado. Título de la Universidad de Denver y certificación de contador público de Alaska, en Arthur Young and Company. Participó en vivienda de bajo costo y proyectos médicos en Centroamérica, y en el Instituto Osher de Aprendizaje de la Universidad de Denver.</p>",
-            "Alan Baumbach",
         )
         + person(
             "",
             "laurie-leung.jpg",
             "Laurie Lemmlie-Leung",
             "Secretaria, jubilada",
-            "<p>Miembro fundador; también trabaja con el comité de recaudación. Nació en Estados Unidos y se graduó de Cornell College. Sirvió en el Cuerpo de Paz en Filipinas, trabajó para el programa estadounidense de refugiados en Manila y en KPMG en Hong Kong. En Volcán es voluntaria de Tierras Altas Recicla.</p>",
+            "La señora Lemmlie-Leung es miembro fundador de la fundación Arte y Cultura de Tierras Altas, y actualmente ocupa el cargo de Secretaria, también trabaja con el comité de Gestión de Fondos. Nació y creció en los Estados Unidos y recibió su titulo universitario de Cornell College. Es una empresaria retirada. Sirvió en el Cuerpo de Paz en las Filipinas, trabajo para el programa americano de Refugiados en Manila, Filipinas y en KPMG en Hong Kong. Ella ha sido voluntaria en varias ONGs en Hong Kong, incluyendo Refugee Concern, la Fundación Pam Baker, el Club de Mujeres Empresarias, y el Club de Scouts de Canadá en Hong Kong. En Volcán, Tierras Altas actualmente es voluntaria en el programa Tierras Altas Recicla.",
             "Laurie Lemmlie-Leung, secretaria",
-        )
-        + person(
-            "",
-            "chris-thomas.jpg",
-            "Christine Bardolf Thomas",
-            "Bibliotecaria, jubilada",
-            "<p>Miembro fundador. Título de Clemson University y maestría en educación de Framingham. Enseñó inglés y ciencias en Costa Rica y fue bibliotecaria de primaria 23 años en una escuela internacional. Trabaja con la Fundación Humanitaria de Costa Rica y como consultora de Wells Mountain Foundation y Tropical Forest Management Foundation. Ha vivido entre Costa Rica y Panamá 42 años.</p>",
-            "Chris Thomas, bibliotecaria",
-        )
-        + person(
-            "",
-            "chris-arias.jpg",
-            "Chris Arias",
-            "Instructora de español para extranjeros",
-            "<p>Miembro fundador, bilingüe inglés/español. Nació en Honduras. Título en tecnología de alimentos y en alta dirección bancaria. Fue presidenta de AHIBA en el litoral atlántico y vicepresidenta de la Cámara de Comercio de Atlántida. Ha servido en juntas de Adelante Foundation, RBC en Roatán y HALA.</p>",
-            "Chris Arias",
-        )
-        + person(
-            "",
-            "estela-ritter.jpg",
-            "Estela Ritter Pangtay",
-            "Tercera vocal, jubilada",
-            "<p>Nació en la ciudad de Panamá. Arquitecta por la Universidad de São Paulo. Trabajó como urbanista para el gobierno de Panamá y como operadora CAD en Canadá. Miembro activo de Tierras Altas Recicla.</p>",
-            "Estela Ritter",
         )
         + person(
             "",
             "rossana-tarantini.jpeg",
             "Rossana Saccucci Tarantini (Roxx)",
             "Tesorera, editora",
-            "<p>Nació en Canadá, de ascendencia italiana. Licenciada en idiomas (francés, italiano y español) por York University, Toronto. Certificaciones en contabilidad, gestión de instalaciones y edición. Este es su primer cargo en la junta de una fundación sin fines de lucro.</p>",
+            "La Sra. Tarantini actualmente se desempeña como Tesorera y miembro del Subcomité de Recaudación de Fondos. Nació en Canadá y es de ascendencia italiana. Es licenciada en idiomas (francés, italiano y español) por la Universidad de York, Toronto. Además, cuenta con certificaciones en Contabilidad, Gestión de Instalaciones y, más recientemente, en Edición. Si bien trabajó como freelance durante la mayor parte de su carrera, este es su primer puesto como miembro de la Junta Directiva de una fundación sin fines de lucro.",
             "Rossana Saccucci Tarantini, tesorera",
+        )
+        + person(
+            "",
+            "chris-arias.jpg",
+            "Chris Arias",
+            "Instructora de español para extranjeros",
+            "La señora Arias, actualmente participa en el subcomité de Gestión de Fondo es miembro fundador de la Fundacion Arte y Cultura de Tierras Altas. Nació en Honduras de padres de ascendencia española. Completamente bilingüe Inglés/Español. Obtuvo su título en Tecnología de los Alimentos de la Universidad Autónoma de Honduras. Obtiene su titulo en Alta Direccion Bancaria de Anden Escuela de Negocios/Tecnológico de Monterrey México/Honduras . Actualmente está cursando en UDEMY para obtener su título como instructora de Español como lengua extranjera.. Sirvió como Presidente de la AHIBA, Asociación Hondureña de Instituciones Bancarias , en el capítulo de Litoral Atlántico . Fue miembro de la Cámara de Comercio e Industrias de Atlántida ,ostentando cargos de Fiscal y Vicepresidente de la misma. Ellas ha sido muy activa en varias Juntas Directivas de organizaciones sin fines de lucro, tales como: Fundacion Adelante, organización de microfinanzas para las mujeres más pobres de Honduras; RBC,fundación en Roatán, Honduras que ayuda a los niños sin recursos financieros y con discapacidades físicas y problemas de salud. También trabajó con HALA, una organización sin fines de lucro que pertenece a Abundant Life Foundation Org, que trabaja en crear oportunidades a los pobres de Roatan a través de desarrollo comunitario, educación y conservación.",
+            "Chris Arias",
+        )
+        + person(
+            "",
+            "chris-thomas.jpg",
+            "Christine Bardolf Thomas",
+            "Bibliotecaria, jubilada",
+            "La señora Thomas es miembro fundador de la Fundación Arte y Cultura de Tierras Altas y funge como nuestra Bibliotecaria. Nació y creció en los Estados Unidos y recibió su título universitario de la Universidad de Clemson, así como su magister en Educación de la Universidad de Framingham. Fue profesora de Ingles como segunda lengua en la Escuela de Japón en Costa Rica, y también enseno Ciencia y Biología en una escuela privada. Fue la bibliotecaria de primaria para la Escuela Internacional Americana por 23 años en Costa Rica. Ha trabajado por más de 20 años con la Fundación Humanitaria de Costa Rica, trabajando con grupos indígenas, así como otros grupos de inmigrantes de Nicaragua y niños en riesgo social. Trabaja también como consultora para la Wells Mountain Foundation, la cual otorga becas a jóvenes de escasos recursos en países en desarrollo. Es consultora para la Fundación Tropical Forest Management. Ha vivido los últimos 42 años entre Costa Rica y Panamá.",
+            "Chris Thomas, bibliotecaria",
+        )
+        + person(
+            "",
+            "estela-ritter.jpg",
+            "Estela Ritter Pangtay",
+            "Tercera vocal, jubilada",
+            "La señora Ritter es la Tercera Vocal. Nació y creció en la ciudad Panamá, licenciada en arquitectura en la Universidad de Sao Paulo, Brasil. Trabajó como arquitecta urbanista y planificadora de desarrollo regional para el gobierno de Panamá y como operadora de CAD (Diseño Asistido por Computador) en el área de ingeniería de la industria de pulpa y papel para las compañías de H. A. Simons, (Amec) y KSH Solution, en Canadá. La Sra. Ritter es miembro activo en la Fundación Tierras Altas Recicla.",
+            "Estela Ritter",
+        )
+        + person(
+            "",
+            "alan-baumbach.jpg",
+            "Alan John Baumbach",
+            "Tesorero, jubilado",
+            "El señor Baumbach es un miembro fundador de la Fundación Arte y Cultura de Tierras Altas y funge como Tesorero. El nació y creció en Colorado y recibió su titulo de la Universidad de Denver y su certificación como Contador Publico del estado de Alaska mientras trabajaba con Artur Young y Compañía. Es un empresario y esta ahora retirado. El señor Baumbach fue muy activo en programas sociales de vivienda de bajo costo, así como proyectos humanitarios y médicos en Centro América. Fue activo en el Instituto Osher de Aprendizaje en la Universidad de Denver. Este es un proyecto para adultos que quieren seguir aprendiendo durante toda su vida.",
+            "Alan Baumbach",
         )
         + person(
             "",
             "nahomi-soto.jpg",
             "Nahomi Soto",
             "Asesora, estudiante de ingeniería",
-            "<p>Nació en la ciudad de Panamá. Estudia Ingeniería Industrial Administrativa. Apoya redes sociales y la promoción de actividades de la biblioteca.</p>",
+            "Nahomi Soto es asesora de la Fundación para el Arte y la Cultura de Tierras Altas. Nació y creció en la Ciudad de Panamá y actualmente estudia Ingeniería Industrial Administrativa. Durante años ha participado en diversas actividades de voluntariado y le apasiona apoyar a la comunidad. En la biblioteca también colabora con las redes sociales y en la promoción de las actividades y programas comunitarios.",
             "Nahomi Soto",
         )
         + """
-<h2>Otros miembros</h2>
+<h2>Miembros anteriores de la junta directiva</h2>
 <ul>
 <li>Cheryl Roe Michel, jubilada</li>
 <li>Stephanie Llean Charpentier Santamaría, arquitecta</li>
 <li>Miguel Eduardo Samudio Ledezma, servicio civil</li>
 <li>Ana Iris Tribaldos Jarquin, administración</li>
 </ul>
-<h2>Miembros anteriores de la junta directiva</h2>"""
+"""
     )
 
     pages["noticias-y-actualizaciones.html"] = page(
@@ -862,7 +862,7 @@ def write_pages(docs: Path):
             "tony-leung.jpg",
             "Anthony Tak On Leung",
             "Chairman, retired",
-            "<p>Born and raised in Hong Kong; B.A. from the University of Wisconsin. Former business owner. Administration and Finance Officer for the International Organization for Migration in Manila. Volunteered with Refugee Concern, the Hong Chi Association, the Pam Baker Foundation, and chaired The Leprosy Project in Sichuan, China. Active Rotarian for over 30 years.</p>",
+            "<p>Mr. Leung is the current Chairman of the Fundacion Arte y Cultura de Tierras Altas. He was born and raised in Hong Kong and received his BA from the University of Wisconsin. He is a former business owner and is now retired. Previously he worked for the International Organization for Migration as the Administration and Finance Officer in Manila, Philippines. He has also volunteered with several NGOs in Hong Kong including Refugee Concern, the Hong Chi Association, the Pam Baker Foundation, and was Chairman of The Leprosy Project, serving people affected by Leprosy in the Sichuan Province of China. Tony was an active Rotarian for over 30 years.</p>",
             "Anthony Leung, chairman",
         )
         + person(
@@ -870,74 +870,74 @@ def write_pages(docs: Path):
             "linda-chang.jpg",
             "Linda Kristina Chang Quintero",
             "Vice president and legal representative, attorney",
-            "<p>Founding member. Born in Panama City. Law degree from Metropolitan University of Panama; conciliator and mediator (Universidad Latina) with a specialty in commercial and immigration law. Partner at Magallan y Chang; legal adviser to the Chamber of Tourism, Commerce and Industry in Tierras Altas.</p>",
+            "<p>Ms. Chang is a founding member of the Fundacion Arte y Cultura de Tierras Altas. Ms. Chang currently serves as the Vice President and Legal Representative. She was born in Panama City and received her law degree from Metropolitan University of Panama and obtained the license of conciliator and mediator in the Latin University of Panama with specialization in commercial and immigration law. Ms. Chang is part of the National Union of Lawyers of Panama and is currently partner of the law firm Magallan y Chang, practicing in the provinces of Chiriqui and Panama. Ms. Chang is also active as a Legal Adviser of the Chamber of Tourism, Commerce and Industry in Tierras Altas.</p>",
             "Linda Chang, vice president",
-        )
-        + person(
-            p,
-            "alan-baumbach.jpg",
-            "Alan John Baumbach",
-            "Treasurer, retired",
-            "<p>Born in Colorado. B.S.B.A. from the University of Denver; CPA (Alaska) while at Arthur Young and Company. Active in low-income housing and medical projects in Central America and in the Osher Lifelong Learning Institute at the University of Denver.</p>",
-            "Alan Baumbach",
         )
         + person(
             p,
             "laurie-leung.jpg",
             "Laurie Diane Lemmlie-Leung",
             "Secretary, retired",
-            "<p>Founding member; also works with the fundraising committee. Born in the United States; bachelor’s degree from Cornell College. Peace Corps Volunteer in the Philippines; U.S. Refugee Program in Manila; KPMG in Hong Kong. In Volcán she volunteers with Tierras Altas Recicla.</p>",
+            "<p>Ms. Lemmlie-Leung is a founding member of the Fundación Arte y Cultura de Tierras Altas and is currently serving as Secretary and working with the fundraising committee. She was born and raised in the United States and received her bachelor’s degree from Cornell College. She is a former business owner and is now retired. She previously served as a Peace Corps Volunteer in the Philippines, worked for the U.S. Refugee Program in Manila, Philippines, and KPMG in Hong Kong. She has also volunteered with several NGOs in Hong Kong including Refugee Concern, the Pam Baker Foundation, the Women Business Owners Club and Scouts Canada (HK). In Volcan she volunteers with Tierras Altas Recicla.</p>",
             "Laurie Lemmlie-Leung, secretary",
-        )
-        + person(
-            p,
-            "chris-thomas.jpg",
-            "Christine Bardolf Thomas",
-            "Librarian, retired",
-            "<p>Founding member. B.A. from Clemson University; M.Ed. from Framingham. Taught ESL, science, and biology in Costa Rica and was elementary librarian at an American international school for 23 years. Works with the Costa Rican Humanitarian Foundation and reviews for Wells Mountain Foundation. Has lived between Panama and Costa Rica for 42 years.</p>",
-            "Chris Thomas, librarian",
-        )
-        + person(
-            p,
-            "chris-arias.jpg",
-            "Chris Arias",
-            "Spanish tutor",
-            "<p>Founding member, fully bilingual. Born in Honduras. Degrees in food technology and senior banking management. Former president of AHIBA’s North Coast chapter and vice president of the Atlántida Chamber of Commerce. Board work with Adelante Foundation, RBC in Roatán, and HALA.</p>",
-            "Chris Arias",
-        )
-        + person(
-            p,
-            "estela-ritter.jpg",
-            "Estela Ritter Pangtay",
-            "Third vocal, retired",
-            "<p>Born in Panama. Architecture degree from the University of São Paulo. Urbanist and regional planner for the government of Panama; CAD operator in Canada. Active with Tierras Altas Recicla.</p>",
-            "Estela Ritter",
         )
         + person(
             p,
             "rossana-tarantini.jpeg",
             "Rossana Saccucci Tarantini (Roxx)",
             "Treasurer, editor",
-            "<p>Born in Canada, of Italian heritage. Degree in languages (French, Italian, and Spanish) from York University, Toronto. Certifications in accounting, facilities management, and editing. This is her first board role at a nonprofit foundation.</p>",
+            "<p>Ms. Tarantini currently serves as Treasurer and as a member of the Fundraising Sub committee. She was born in Canada and is of Italian heritage. She has a degree in languages [French, Italian, & Spanish] from York University, Toronto.  Additionally, Ms. Tarantini has certifications in Accounting, Facilities Management, and, most recently, Editing. While working freelance for most of her career, this is her first position as a Board Member for a non-profit Foundation.</p>",
             "Rossana Saccucci Tarantini, treasurer",
+        )
+        + person(
+            p,
+            "chris-arias.jpg",
+            "Chris Arias",
+            "Spanish tutor",
+            "<p>Ms. Arias currently serves as the Fiscal and on the Fundraising Sub committee and is a founding member of Fundacion Arte y Cultura de Tierras Altas. She was born in Honduras from Spanish parents. She is completely bilingual English/Spanish. She obtained her degree in Food Technology from the Universidad Autonoma de Hondura. Ms. Arias also has a degree in Senior Management in Banking from the Tecnologico de Monterrey/Anden Escuela de Negocios Mexico/Honduras. Currently, she is studying at UDEMY to obtain her teaching degree in Spanish as a Foreign language. Ms. Arias served as President of the Honduras Banking Association (AHIBA)/North Coast Chapter, and a member of the Board of Directors of the Chamber of Commerce of Atlantida, (Honduras) from 2008 until her retirement in 2015. During this period, she held positions as Fiscal and later Vice President. Ms. Arias has been very active on several boards of directors for charitable and non government organizations including: Adelante Foundation, providing microfinance for rural women in Honduras; RBC, a Roatan, Honduras; a social foundation for children with health problems. She also worked with HALA, a branch of Abundant Life Foundation Org, which creates opportunities for the very poor people of Roatan, Honduras through community development, education and conservation.</p>",
+            "Chris Arias",
+        )
+        + person(
+            p,
+            "chris-thomas.jpg",
+            "Christine Bardolf Thomas",
+            "Librarian, retired",
+            "<p>Ms. Thomas is a founding member of the Fundacion Arte y Cultura de Tierras Altas and is currently serving as the First Vocal and Librarian. She was born and raised in the United States and received her Bachelor’s degree from Clemson University, and a Master's Degree in Education from Framingham University. She taught ESL at the Japanese School in Costa Rica, and Science and Biology at a private school. She was the Elementary Librarian at an American International School for 23 years in Costa Rica. She has worked for over 20 years with the Costa Rican Humanitarian Foundation working with indigenous groups, as well as other marginalized groups of Nicaraguan migrants and street kids. She is a reviewer for the Wells Mountain Foundation, which gives scholarships to promising students with financial needs in developing countries. She is also in a consulting group for the Tropical Forest Management Foundation. Chris has lived between Panama and Costa Rica for the past 42 years.</p>",
+            "Chris Thomas, librarian",
+        )
+        + person(
+            p,
+            "estela-ritter.jpg",
+            "Estela Ritter Pangtay",
+            "Third vocal, retired",
+            "<p>Ms. Ritter currently serves as Third Vocal.  She was born and raised in Panama, degree in architecture at the University of Sao Paulo, Brazil. She worked as an architect urbanist and regional development planner for the government of Panama and as CAD (Computer-Aided Design) operator in the field of pulp and paper industry engineering for the companies: H.A. Simons (Amec) and KSH Solutions, in Canada. Ms. Ritter is also an active member of the Foundation Tierras Altas Recicla.</p>",
+            "Estela Ritter",
+        )
+        + person(
+            p,
+            "alan-baumbach.jpg",
+            "Alan John Baumbach",
+            "Treasurer, retired",
+            "<p>Mr. Baumbach is a founding member of the Fundacion Arte y Cultura de Tierras Altas and currently serves as a Consultant. He was born and raised in Colorado and received his BSBA degree from the University of Denver and his CPA certification from the State of Alaska while working at Arthur Young and Company. He is a former business owner and is now retired. Mr. Baumbach was also active in several low income housing and medical projects in Central America. He was active in the Osher Lifelong Learning Institute at the University of Denver. OLLI at DU is an adult learning membership program designed for adults who wish to pursue lifelong learning.</p>",
+            "Alan Baumbach",
         )
         + person(
             p,
             "nahomi-soto.jpg",
             "Nahomi Soto",
             "Advisor, engineering student",
-            "<p>Born and raised in Panama City. Studies Administrative Industrial Engineering. Supports social media and helps promote library programs.</p>",
+            "<p>Nahomi Soto is an advisor to the Foundation for Art and Culture of Tierras Altas. She was born and raised in Panama City and is currently a student of Administrative Industrial Engineering. She has participated in different volunteer activities over the years and is passionate about helping the community. At the library, she also supports social media and helps promote community activities and programs.</p>",
             "Nahomi Soto",
         )
         + """
-<h2>Other members</h2>
+<h2>Former board members</h2>
 <ul>
 <li>Cheryl Roe Michel, retired</li>
 <li>Stephanie Llean Charpentier Santamaría, architect</li>
 <li>Miguel Eduardo Samudio Ledezma, civil service</li>
 <li>Ana Iris Tribaldos Jarquin, administration</li>
 </ul>
-<h2>Former board members</h2>"""
+"""
     )
 
     pages["en/news-and-updates.html"] = page(
