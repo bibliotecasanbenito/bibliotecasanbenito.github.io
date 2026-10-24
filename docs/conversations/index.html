@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+<head>
+  <meta charset="utf-8">
+  <meta name="google" content="notranslate">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Conversations</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #fbf8f2;
+      --fg: #1d1b18;
+      --muted: #857e72;
+      --es: #9b4d24;
+      --rule: #e6dfd2;
+      --hl: #f3ead8;
+      --level-a: #3d6b45;
+      --level-a-bg: #e2ede0;
+      --level-b: #85561a;
+      --level-b-bg: #f3e4c6;
+      --level-c: #9b3324;
+      --level-c-bg: #f5dcd5;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #171513;
+        --fg: #ece6dc;
+        --muted: #8f877b;
+        --es: #e0a47e;
+        --rule: #2e2a25;
+        --hl: #2a241d;
+        --level-a: #a6cfa9;
+        --level-a-bg: #1f2b21;
+        --level-b: #e3bd78;
+        --level-b-bg: #30271a;
+        --level-c: #eda193;
+        --level-c-bg: #3a201c;
+      }
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font: 19px/1.4 "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    }
+
+    main {
+      box-sizing: border-box;
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 2.4rem 1.5rem 4rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 1.8rem;
+    }
+
+    h1 {
+      font-weight: 400;
+      font-size: 2rem;
+      line-height: 1.2;
+      margin: 0;
+    }
+
+    .subtitle {
+      margin: 0.2rem 0 0;
+      color: var(--es);
+      font-style: italic;
+      font-size: 1.2rem;
+    }
+
+    ol {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      border-top: 1px solid var(--fg);
+    }
+
+    li { border-bottom: 1px solid var(--rule); }
+
+    a {
+      display: flex;
+      align-items: baseline;
+      padding: 0.75rem 0.4rem;
+      color: inherit;
+      text-decoration: none;
+    }
+
+    a:hover { background: var(--hl); }
+
+    .num {
+      flex: 0 0 2.6rem;
+      font: 600 13px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+    }
+
+    .es {
+      display: block;
+      color: var(--es);
+      font-style: italic;
+      font-size: 0.9em;
+    }
+
+    .title {
+      flex: 1 1 auto;
+      min-width: 0;
+      padding-right: 0.8rem;
+    }
+
+    .level {
+      flex: none;
+      padding: 0.15rem 0.55rem;
+      border-radius: 999px;
+      font: 600 12px/1.2 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      letter-spacing: 0.06em;
+    }
+
+    .level-a { color: var(--level-a); background: var(--level-a-bg); }
+    .level-b { color: var(--level-b); background: var(--level-b-bg); }
+    .level-c { color: var(--level-c); background: var(--level-c-bg); }
+
+    .legend {
+      margin: 0.9rem 0 0;
+      font: 12px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--muted);
+    }
+
+    .legend .level {
+      padding: 0.05rem 0.4rem;
+      font-size: 11px;
+    }
+
+    @media (max-width: 640px) {
+      body { font-size: 17px; }
+      main { padding: 1.6rem 1rem 3rem; }
+      h1 { font-size: 1.6rem; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Conversations</h1>
+      <p class="subtitle" lang="es">Conversaciones</p>
+      <p class="legend">CEFR level: <span class="level level-a">A</span> beginner &middot; <span class="level level-b">B</span> intermediate &middot; <span class="level level-c">C</span> advanced<br>
+        <span lang="es">Nivel MCER: A principiante &middot; B intermedio &middot; C avanzado</span></p>
+    </header>
+    <ol>
+      <li><a href="1.html"><span class="num">1</span><span class="title">Introductions<span class="es" lang="es">Introducciones</span></span><span class="level level-a" title="CEFR A1: beginner">A1</span></a></li>
+      <li><a href="3.html"><span class="num">3</span><span class="title">Asking for and Giving Directions<span class="es" lang="es">Pedir y dar indicaciones</span></span><span class="level level-a" title="CEFR A2: elementary">A2</span></a></li>
+      <li><a href="4.html"><span class="num">4</span><span class="title">Describing People, Places, and Objects<span class="es" lang="es">Describir personas, lugares y objetos</span></span><span class="level level-a" title="CEFR A1: beginner">A1</span></a></li>
+      <li><a href="5.html"><span class="num">5</span><span class="title">At the Market<span class="es" lang="es">En el mercado</span></span><span class="level level-a" title="CEFR A1: beginner">A1</span></a></li>
+      <li><a href="6.html"><span class="num">6</span><span class="title">Going to the Doctor<span class="es" lang="es">Ir al doctor</span></span><span class="level level-a" title="CEFR A2: elementary">A2</span></a></li>
+      <li><a href="7.html"><span class="num">7</span><span class="title">Asking for Directions<span class="es" lang="es">Pidiendo indicaciones</span></span><span class="level level-a" title="CEFR A2: elementary">A2</span></a></li>
+      <li><a href="8.html"><span class="num">8</span><span class="title">Library Grand Opening<span class="es" lang="es">Gran inauguración de la biblioteca</span></span><span class="level level-a" title="CEFR A2: elementary">A2</span></a></li>
+      <li><a href="9.html"><span class="num">9</span><span class="title">Founding Celebration<span class="es" lang="es">Celebración de la fundación</span></span><span class="level level-a" title="CEFR A2: elementary">A2</span></a></li>
+      <li><a href="10.html"><span class="num">10</span><span class="title">At the Restaurant<span class="es" lang="es">En el restaurante</span></span><span class="level level-a" title="CEFR A1: beginner">A1</span></a></li>
+      <li><a href="12.html"><span class="num">12</span><span class="title">Recycling<span class="es" lang="es">Reciclaje</span></span><span class="level level-a" title="CEFR A1: beginner">A1</span></a></li>
+      <li><a href="13.html"><span class="num">13</span><span class="title">Shopping<span class="es" lang="es">Compras</span></span><span class="level level-a" title="CEFR A1: beginner">A1</span></a></li>
+      <li><a href="15.html"><span class="num">15</span><span class="title">Emergencies<span class="es" lang="es">Emergencias</span></span><span class="level level-a" title="CEFR A2: elementary">A2</span></a></li>
+      <li><a href="16.html"><span class="num">16</span><span class="title">At the Restaurant<span class="es" lang="es">En el restaurante</span></span><span class="level level-a" title="CEFR A1: beginner">A1</span></a></li>
+      <li><a href="17.html"><span class="num">17</span><span class="title">Planning an Event<span class="es" lang="es">Planear un evento</span></span><span class="level level-a" title="CEFR A1: beginner">A1</span></a></li>
+      <li><a href="18.html"><span class="num">18</span><span class="title">Shopping for Clothes<span class="es" lang="es">Comprar ropa</span></span><span class="level level-a" title="CEFR A1: beginner">A1</span></a></li>
+      <li><a href="19.html"><span class="num">19</span><span class="title">At the Bus Terminal<span class="es" lang="es">En la terminal de autobuses</span></span><span class="level level-a" title="CEFR A2: elementary">A2</span></a></li>
+      <li><a href="29.html"><span class="num">29</span><span class="title">Lost on the Road<span class="es" lang="es">Perdido en el camino</span></span><span class="level level-b" title="CEFR B1: intermediate">B1</span></a></li>
+      <li><a href="32.html"><span class="num">32</span><span class="title">At the Market<span class="es" lang="es">En el mercado</span></span><span class="level level-a" title="CEFR A2: elementary">A2</span></a></li>
+      <li><a href="33.html"><span class="num">33</span><span class="title">A Friendly Chat<span class="es" lang="es">Una charla amistosa</span></span><span class="level level-a" title="CEFR A2: elementary">A2</span></a></li>
+      <li><a href="35.html"><span class="num">35</span><span class="title">Mexico City or Panama City?<span class="es" lang="es">¿Ciudad de México o Ciudad de Panamá?</span></span><span class="level level-b" title="CEFR B2: upper intermediate">B2</span></a></li>
+      <li><a href="36.html"><span class="num">36</span><span class="title">Technology &amp; Communication<span class="es" lang="es">Tecnología y comunicación</span></span><span class="level level-b" title="CEFR B1: intermediate">B1</span></a></li>
+      <li><a href="40.html"><span class="num">40</span><span class="title">At the Doctor<span class="es" lang="es">En el consultorio médico</span></span><span class="level level-b" title="CEFR B1: intermediate">B1</span></a></li>
+      <li><a href="41.html"><span class="num">41</span><span class="title">Hotel Check-In<span class="es" lang="es">Check-in en el hotel</span></span><span class="level level-a" title="CEFR A2: elementary">A2</span></a></li>
+      <li><a href="42.html"><span class="num">42</span><span class="title">At the Pharmacy<span class="es" lang="es">En la farmacia</span></span><span class="level level-a" title="CEFR A2: elementary">A2</span></a></li>
+      <li><a href="45.html"><span class="num">45</span><span class="title">Filling Out a Form<span class="es" lang="es">Llenar un formulario</span></span><span class="level level-a" title="CEFR A2: elementary">A2</span></a></li>
+      <li><a href="46.html"><span class="num">46</span><span class="title">Playing Cards<span class="es" lang="es">Jugando a las cartas</span></span><span class="level level-a" title="CEFR A2: elementary">A2</span></a></li>
+    </ol>
+  </main>
+</body>
+</html>
