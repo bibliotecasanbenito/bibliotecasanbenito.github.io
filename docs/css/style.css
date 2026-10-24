@@ -248,6 +248,10 @@ h3 {
   display: block;
 }
 
+.tile:last-child:nth-child(3n + 1) {
+  grid-column: 2;
+}
+
 .home-catalog {
   text-align: center;
   margin: 0.5rem 0 1.4rem;
@@ -573,6 +577,10 @@ body.home .footer-inner section > p:not(.social) {
     grid-template-columns: 1fr;
     max-width: 22rem;
     margin-inline: auto;
+  }
+
+  .tile:last-child:nth-child(3n + 1) {
+    grid-column: auto;
   }
 }
 
